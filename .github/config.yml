@@ -1,5 +1,5 @@
-name-template: 'desktop@$RESOLVED_VERSION'
-tag-template: 'desktop@$RESOLVED_VERSION'
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 template: |
   ## Changes
   $CHANGES
