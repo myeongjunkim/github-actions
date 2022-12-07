@@ -1,0 +1,11 @@
+name: draft-release
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  draft-release:
+    uses: alphaprime-dev/alpha-actions/.github/workflows/draft-release.yml@workflow
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
