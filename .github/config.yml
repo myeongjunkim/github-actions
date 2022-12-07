@@ -1,0 +1,12 @@
+name-template: 'desktop@$RESOLVED_VERSION'
+tag-template: 'desktop@$RESOLVED_VERSION'
+template: |
+  ## Changes
+  $CHANGES
+sort-by: 'title'
+version-resolver:
+  minor:
+    labels:
+      - 'feature'
+  default: patch
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
