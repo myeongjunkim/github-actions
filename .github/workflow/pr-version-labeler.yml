@@ -7,5 +7,4 @@ on:
 jobs:
   version-labeler:
     uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@workflow
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    ecrets: inherit
