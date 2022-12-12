@@ -3,11 +3,8 @@ name: draft-release
 on:
   pull_request:
     types: [closed]
-  push:
-    branch:
-      - test-config
+
 jobs:
   draft-release:
     uses: alphaprime-dev/alpha-actions/.github/workflows/draft-release.yml@involve-config
     secrets: inherit
-    
