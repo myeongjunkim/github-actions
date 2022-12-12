@@ -4,7 +4,8 @@ on:
   pull_request:
     types: [closed]
   push:
-    - test-config
+    branch:
+      - test-config
 jobs:
   draft-release:
     uses: alphaprime-dev/alpha-actions/.github/workflows/draft-release.yml@involve-config
