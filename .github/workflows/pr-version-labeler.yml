@@ -6,5 +6,5 @@ on:
         
 jobs:
   version-labeler:
-    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@workflow
+    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@involve-config
     secrets: inherit
