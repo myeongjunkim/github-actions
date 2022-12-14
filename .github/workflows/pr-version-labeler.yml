@@ -3,8 +3,13 @@ name: PR Version Labeler
 on:
   pull_request:
     types: [opened, edited]
-        
+  
+  push:
+    branch:
+      - test-config
+
+
 jobs:
   version-labeler:
-    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@workflow
+    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@e8b5a2f84a62ad40971fc6f22172f5571cf4535c
     secrets: inherit
