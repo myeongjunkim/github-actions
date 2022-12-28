@@ -11,5 +11,5 @@ on:
 
 jobs:
   version-labeler:
-    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@e8b5a2f84a62ad40971fc6f22172f5571cf4535c
+    uses: alphaprime-dev/alpha-actions/.github/workflows/pr-version-labeler.yml@refactoring-config
     secrets: inherit
