@@ -1,0 +1,14 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - notify-discord
+
+
+jobs:
+  notify-discord:
+    uses: alphaprime-dev/alpha-actions/.github/workflows/notify-teams.yaml@feat/notify-discord
+    with:
+      image-tag: v23.5.3
+      environment: PROD
