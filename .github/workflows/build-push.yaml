@@ -8,7 +8,7 @@ on:
 
 jobs:
   notify-discord:
-    uses: alphaprime-dev/alpha-actions/.github/workflows/notify-teams.yaml@feat/notify-discord
+    uses: alphaprime-dev/alpha-actions/.github/workflows/notify-discord.yaml@feat/notify-discord
     with:
       image-tag: v23.5.3
       environment: PROD
